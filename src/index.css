@@ -1,0 +1,374 @@
+body {
+  background-color: rgb(210, 208, 208);
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+.dark-theme {
+  background-color: rgb(26, 14, 74);
+  color: cadetblue;
+}
+
+.invit {
+  width: 100%;
+  height: 50vw;
+}
+.invit_content {
+  max-width: 300px;
+  height: 450px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.content-wrapper {
+  overflow: auto;
+  max-height: 400px;
+}
+
+.person {
+  display: flex;
+  position: relative;
+  width: 95%;
+  padding: 15px 0px;
+}
+.person:last-child {
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+}
+.person svg {
+  position: absolute;
+  right: 0;
+}
+.form {
+  width: 100%;
+  display: flex;
+}
+.b_v2 {
+  position: absolute;
+  bottom: 15px;
+  background: none;
+  cursor: pointer;
+  border: none;
+  padding: 10px 70px;
+  border-radius: 10px;
+  color: #ddd;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(247, 73, 9);
+  box-shadow: #585454;
+}
+.b_v2:hover {
+  background-color: rgb(202, 63, 13);
+  color: #fbf6f6;
+}
+.input {
+  padding: 8px 35px;
+
+  margin: 10px 10px;
+  border-radius: 25px;
+}
+input {
+  padding-left: 30px; /* Добавьте отступ, чтобы текст не перекрывал иконку */
+  background-position: 10px 50%; /* Положение иконки: 10 пикселей от левого края и по центру по вертикали */
+  background-size: 20px 20px; /* Размер иконки: 20x20 пикселей */
+}
+
+.info {
+  position: relative;
+}
+.info h1 {
+  font-size: 16px;
+  margin: 0;
+}
+.info p {
+  margin: 0;
+  font-size: 14px;
+}
+.avatar {
+  width: 50px;
+  margin: 10px;
+  margin-top: -10px;
+  height: 50px;
+  border-radius: 50%;
+}
+.secses {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  align-items: center;
+}
+.secses h1 {
+  text-transform: capitalize;
+  color: #585454;
+  margin: 0;
+}
+.secses img {
+  width: 100px;
+  border-radius: 50%;
+}
+/* secses */
+.content {
+  display: block;
+  width: 500px;
+  height: auto;
+  padding: 10px 30px 40px 0px;
+  max-width: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  left: 34%;
+  top: 50px;
+  position: relative;
+  z-index: 2;
+}
+.img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+.result img {
+  margin: 0 2em;
+  width: 150px;
+  height: 150px;
+}
+.result h1 {
+  color: cadetblue;
+  font-size: 23px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.result a {
+  font-size: 16px;
+  border: none;
+  padding: 10px 50px;
+  color: wheat;
+  border-radius: 15px;
+  text-transform: capitalize;
+  background-color: palevioletred;
+  cursor: pointer;
+}
+.result a:hover {
+  transition: all 0.4s;
+  background-color: rgb(206, 99, 134);
+}
+.progress-bar {
+  margin-left: 5px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.progress {
+  background-image: linear-gradient(
+    to right,
+    #90a499,
+    #cbb59f,
+    rgb(150, 107, 107),
+    rgb(110, 174, 176)
+  );
+  height: 15px;
+  border-radius: 10px;
+  transition: all 0.7s;
+}
+
+.game h1 {
+  padding-left: 30px;
+  color: rgb(160, 121, 95);
+  font-family: serif;
+  font-size: 24px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.game li {
+  margin-top: 15px;
+  border: 1px solid black;
+  padding: 15px 10px;
+  text-align: left;
+  border-radius: 10px;
+  list-style: none;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.game li:hover {
+  background-color: rgb(110, 174, 176);
+}
+
+/* galere */
+.galere {
+  margin: 0;
+  padding: 0;
+}
+.galere h1:first-child {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 50px;
+  color: rgb(135, 135, 169);
+}
+.galere h1 {
+  font-size: 20px;
+}
+
+.galere ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  text-transform: capitalize;
+}
+.galere li {
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+  font-size: 16px;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  cursor: pointer;
+}
+
+.galere li.active {
+  color: white;
+  background-color: black;
+  transition: all 0.1s;
+}
+.galere li:hover {
+  border: 1px solid black;
+}
+
+.galere input {
+  border-radius: 10px;
+  list-style: none;
+  color: black;
+  font-size: 16px;
+  border: none;
+  background-color: white;
+}
+
+/* gallery */
+.gallery_content {
+  display: flex;
+  justify-content: center;
+}
+.colection_big img {
+  width: 345px;
+  cursor: pointer;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.colection_mini img {
+  width: 95px;
+  cursor: pointer;
+
+  height: 80px;
+  border-radius: 10px;
+}
+.colection_mini img:hover {
+  box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.2);
+}
+.colection_big img:hover {
+  box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.2);
+}
+/* modal */
+.window {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8); /* Делаем фон более темным */
+  height: 100vh; /* Используйте vh для высоты, чтобы покрыть весь экран */
+  width: 100vw; /* Используйте vw для ширины, чтобы покрыть весь экран */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10; /* Убедитесь, что модальное окно будет поверх других элементов */
+}
+
+.modal {
+  position: relative;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 11;
+}
+.modal_btn {
+  background: none;
+  border: none;
+  background-color: #f1f1f1;
+  border-radius: 6px;
+  opacity: 0.6;
+  position: relative;
+}
+.modal_btn img {
+  color: #fff;
+}
+.modal img {
+  max-width: 90vw; /* Ограничиваем ширину изображения */
+  max-height: 80vh; /* Ограничиваем высоту изображения */
+  margin: 0 auto; /* Центрируем изображение */
+  display: block;
+}
+
+.modal button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 0px 0px;
+}
+
+.colection_mini {
+  display: flex;
+  gap: 35px;
+}
+.gallery {
+  border-radius: 10px;
+  padding: 25px 15px;
+  background-color: #f1f1f1;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 50px;
+  align-items: center;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gallery:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.2);
+}
+.elements {
+  display: flex;
+  flex-wrap: wrap;
+}
+.name {
+  width: 100%;
+  text-align: start;
+  text-transform: capitalize;
+  font-size: 10px;
+  color: saddlebrown;
+}
+/* rect {
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+  animation: draw 2s forwards;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+} */
+@media (max-width: 1200px) {
+  body {
+    background-color: aqua;
+  }
+}
