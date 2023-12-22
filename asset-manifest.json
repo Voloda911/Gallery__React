@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Gallery_React/static/css/main.e9caa735.css",
+    "main.js": "/Gallery_React/static/js/main.2da45a22.js",
+    "static/media/pexels-alfonso-escalante-2533092.jpg": "/Gallery_React/static/media/pexels-alfonso-escalante-2533092.87652a366200e6a01d76.jpg",
+    "static/media/pexels-dominika-roseclay-1252500.jpg": "/Gallery_React/static/media/pexels-dominika-roseclay-1252500.dc8c65a9f92958e8e351.jpg",
+    "static/media/pexels-element-digital-1051075.jpg": "/Gallery_React/static/media/pexels-element-digital-1051075.85d40b27bd89e1e1e04a.jpg",
+    "static/media/pexels-chevanon-photography-333525.jpg": "/Gallery_React/static/media/pexels-chevanon-photography-333525.b19a09f6cc37cc19fb84.jpg",
+    "index.html": "/Gallery_React/index.html",
+    "static/media/close_FILL0_wght400_GRAD0_opsz24.svg": "/Gallery_React/static/media/close_FILL0_wght400_GRAD0_opsz24.fe09be7bf63fe29dc7ac236893cc818f.svg",
+    "main.e9caa735.css.map": "/Gallery_React/static/css/main.e9caa735.css.map",
+    "main.2da45a22.js.map": "/Gallery_React/static/js/main.2da45a22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9caa735.css",
+    "static/js/main.2da45a22.js"
+  ]
+}
