@@ -367,8 +367,8 @@ input {
     stroke-dashoffset: 0;
   }
 } */
-@media (max-width: 1200px) {
+@media (max-width: 425px) {
   body {
-    background-color: aqua;
+    background-color: #0c0101;
   }
 }
